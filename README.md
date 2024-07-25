@@ -16,14 +16,14 @@ This project is a Flask web application that integrates with CAS for authenticat
 
 ```sh
 git clone https://github.com/dan-zong-hao/dcz-backend.git
-cd repository
+cd dcz-backend
 ```
 
 2. Create and activate a Conda environment using the environment.yml file:
 
 ```sh
 conda env create -f environment.yml
-conda activate myenv
+conda activate win
 ```
 
 3. Configure your environment variables. Replace the placeholders in the code (e.g., app_login_url, cas_url, Redis configuration) with your actual configuration.
