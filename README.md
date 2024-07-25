@@ -6,7 +6,6 @@ This project is a Flask web application that integrates with CAS for authenticat
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Build](#build)
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
@@ -38,3 +37,23 @@ conda activate myenv
 ```sh
 python app.py
 ```
+
+## Features
+
+- CAS Authentication: Integrated with CAS for secure user authentication.
+- Session Management: Uses Redis for session storage and management.
+- WebSocket Integration: Real-time updates using SocketIO.
+- Vote and Views Tracking: Tracks user votes and project views in Redis.
+- Blacklist Management: Handles user access control through a blacklist.
+
+## Contributing
+
+- Fork the repository.
+- Create your feature branch (git checkout -b feature/YourFeature).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/YourFeature).
+- Open a pull request.
+
+## License
+
+- This project is licensed under the MIT License - see the LICENSE file for details.
